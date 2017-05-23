@@ -1,5 +1,5 @@
 /**
- * Actionsheet of milk-component
+ * Actionsheet of milkui-component
  * @author caiyongmin
  *
  * Copyright 2017-2019, All rights reserved.

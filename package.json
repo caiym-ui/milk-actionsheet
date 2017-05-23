@@ -1,8 +1,8 @@
 {
-  "name": "milk-actionsheet",
+  "name": "milkui-actionsheet",
   "version": "0.1.0",
   "description": "milk component for build mobile web app",
-  "repository": "https://github.com/caiym-ui/milk-actionsheet",
+  "repository": "https://github.com/milk-ui/milkui-actionsheet",
   "author": "caiyongmin",
   "main": "build/bundle.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "dependencies": {
     "classnames": "~2.2.3",
     "fastclick": "~1.0.6",
-    "milk-mask": "^0.1.0",
+    "milkui-mask": "^0.1.0",
     "react": "~15.4.2",
     "react-dom": "~15.4.2"
   },

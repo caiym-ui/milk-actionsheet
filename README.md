@@ -1,4 +1,4 @@
-# milk-actionsheet
+# milkui-actionsheet
 
 组件描述
 
@@ -9,7 +9,7 @@
 ## 使用
 
 ```js
-import Actionsheet from 'milk-actionsheet';
+import Actionsheet from 'milkui-actionsheet';
 
 <Actionsheet></Actionsheet>
 ```
@@ -35,4 +35,4 @@ npm start
 
 ## 链接
 
-- [Issues](https://github.com/caiym-ui/milk-actionsheet/issues)
+- [Issues](https://github.com/milk-ui/milkui-actionsheet/issues)
