@@ -1,0 +1,47 @@
+/**
+ * Actionsheet of milk-component
+ * @author caiyongmin
+ *
+ * Copyright 2017-2019, All rights reserved.
+ */
+
+.milkui-actionsheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  backface-visibility: hidden;
+  background-color: #efeff4;
+  transition: transform .3s;
+  z-index: 5000;
+}
+
+.milkui-actionsheet__mask {
+  display: none;
+}
+
+.milkui-actionsheet__mask_show {
+  display: block;
+}
+
+.milkui-actionsheet__toggle {
+  transform: translate(0);
+}
+
+.milkui-actionsheet__action, .milkui-actionsheet__menu {
+  background-color: #fff;
+}
+
+.milkui-actionsheet__menu {
+  margin-top: 18px;
+}
+
+.milkui-actionsheet__cell {
+  position: relative;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 34px;
+  border-top: 1px solid #d9d9d9;
+  cursor: pointer;
+}
