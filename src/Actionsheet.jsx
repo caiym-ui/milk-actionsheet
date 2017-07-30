@@ -1,5 +1,5 @@
 /**
- * Actionsheet of milkui-component
+ * ActionSheet of milkui-component
  * @author caiyongmin
  *
  * Copyright 2017-2019, All rights reserved.
@@ -12,7 +12,7 @@ import Mask from 'milkui-mask';
 
 import './index.scss';
 
-class Actionsheet extends Component {
+class ActionSheet extends Component {
   static propTypes = {
     show: PropTypes.bool,
     className: PropTypes.string,
@@ -90,4 +90,4 @@ class Actionsheet extends Component {
   }
 }
 
-export default Actionsheet;
+export default ActionSheet;

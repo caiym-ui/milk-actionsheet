@@ -1,10 +1,10 @@
 /**
- * Actionsheet of milkui-component
+ * ActionSheet of milkui-component
  * @author caiyongmin
  *
  * Copyright 2017-2019, All rights reserved.
  */
 
-import Actionsheet from './Actionsheet';
+import ActionSheet from './ActionSheet';
 
-export default Actionsheet;
+export default ActionSheet;

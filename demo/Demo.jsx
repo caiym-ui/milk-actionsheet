@@ -1,5 +1,5 @@
 /**
- * Actionsheet of milkui-component
+ * ActionSheet of milkui-component
  * @author caiyongmin
  *
  * Copyright 2017-2019, All rights reserved.
@@ -7,7 +7,7 @@
 
 import React, { Component } from 'react';
 
-import Actionsheet from './../src';
+import ActionSheet from './../src';
 import './Demo.scss';
 
 class Demo extends Component {
@@ -34,7 +34,7 @@ class Demo extends Component {
           <div className="milkui__btn milkui__btn_default"
             onClick={this.handlerClick}
           >iOS ActionSheet</div>
-          <Actionsheet show={show} actions={actions} />
+          <ActionSheet show={show} actions={actions} />
         </div>
       </div>
     );

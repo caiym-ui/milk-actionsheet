@@ -1,38 +1,44 @@
 # milkui-actionsheet
 
-组件描述
+> 从底部弹出的模态框，提供和当前场景相关的 2 个以上的操作动作，也支持提供标题和描述。内置固定的展示样式、不支持特别灵活的修改。
 
-## 效果图
+## Overview
 
-![image](https://cloud.githubusercontent.com/assets/11053605/26355050/c99a2626-3ff9-11e7-8087-eb87b750b403.png)
+![image](https://user-images.githubusercontent.com/11053605/28750873-9b808ecc-752a-11e7-80a0-e198dd84392c.png)
 
-## 使用
+## Example
 
 ```js
-import Actionsheet from 'milkui-actionsheet';
+import ActionSheet from 'milkui-actionsheet';
 
-<Actionsheet></Actionsheet>
+const { show } = this.state;
+const actions = [
+  { label: '控制台打印1', onClick: () => { console.info('1'); } },
+  { label: '控制台打印2', onClick: () => { console.info('2'); } },
+];
+
+<ActionSheet show={show} actions={actions} />
 ```
 
-## 参数
+## Properties
 
-| Properties | Type | Description | Default |
+| Property | Type | Description | Default |
 | -- | -- | -- | -- |
 | className | String | 自定义的 class 类名 | '' |
 | actions | Array | 动作项数组，label 属性必填 | [] |
 | onHideSheet | Function | 关闭动作面板时的回调函数 | false |
 | show | Boolean | 是否显示 | false |
 
-## 开发
-
-### install
+## Develop
 
 ```bash
-cnpm i milk-dev -g    # 组件开发工具
+cnpm i milk-dev -g    # dev tool
+
 cnpm install
+
 npm start
 ```
 
-## 链接
+## Links
 
 - [Issues](https://github.com/milk-ui/milkui-actionsheet/issues)
