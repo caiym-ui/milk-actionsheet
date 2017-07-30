@@ -25,13 +25,13 @@ class Demo extends Component {
     ];
 
     return (
-      <div className="demo-panel">
-        <div className="demo-title">Milk Ui</div>
-        <div className="demo-description">
+      <div className="demo__panel">
+        <div className="demo__title">Milk Ui</div>
+        <div className="demo__description">
           Demo Page 😀.
         </div>
-        <div className="demo-item">
-          <div className="milkui-btn milkui-btn_default"
+        <div className="demo__item">
+          <div className="milkui__btn milkui__btn_default"
             onClick={this.handlerClick}
           >iOS ActionSheet</div>
           <Actionsheet show={show} actions={actions} />

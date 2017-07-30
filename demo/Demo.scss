@@ -5,26 +5,26 @@
  * Copyright 2017-2019, All rights reserved.
  */
 
-.demo-panel {
+.demo__panel {
   padding: 0 25px;
 }
 
-.demo-title {
+.demo__title {
   margin-top: 20px;
   font-size: 60px;
 }
 
-.demo-description {
+.demo__description {
   margin-top: 15px;
   font-size: 26px;
   color: #3b3b3b;
 }
 
-.demo-item {
+.demo__item {
   margin-top: 20px;
 }
 
-.milkui-btn {
+.milkui__btn {
   position: relative;
   display: block;
   box-sizing: border-box;
@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 
-.milkui-btn_default {
+.milkui__btn_default {
   color: #000;
   background-color: #f8f8f8;
   border-color: rgba(0,0,0,.2);
