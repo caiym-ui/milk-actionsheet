@@ -1,5 +1,9 @@
 # milkui-actionsheet
 
+[![npm version](https://img.shields.io/npm/v/milkui-actionsheet.svg?style=flat)](https://www.npmjs.com/package/milkui-actionsheet) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](README.md)
+
+[![NPM](https://nodei.co/npm/milkui-actionsheet.png?downloads=true&downloadRank=true)](https://nodei.co/npm/milkui-actionsheet/)
+
 > 从底部弹出的模态框，提供和当前场景相关的 2 个以上的操作动作，也支持提供标题和描述。内置固定的展示样式、不支持特别灵活的修改。
 
 ## Overview
